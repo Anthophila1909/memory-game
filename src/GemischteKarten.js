@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function GemischteKarten() {
   const cardIcons = ["🐶", "🐱", "🐭", "🦊", "🐻", "🐼", "🐨", "🐯"];
   const duplicatedIcons = [...cardIcons, ...cardIcons];

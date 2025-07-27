@@ -13,7 +13,6 @@ function App() {
     <div className="app">
       <h1>Memory-Spiel 🧠</h1>
 
-      {/* Kartenraster */}
       <div className="card-grid">
         {cards.map((card) => (
           <div key={card.id} className="card">
